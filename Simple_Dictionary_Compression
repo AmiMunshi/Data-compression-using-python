@@ -1,0 +1,55 @@
+string1= "and or and with or not go for and not got for with and for go on there" ## Enter the string to be compressed
+list1= string1.split() #separate individual words in the string
+#print(list1)
+import numpy ask=0
+dict2={} # create one more dictionary to store word and its corresponding index
+for key1 in dict1:
+    k= k+1
+    temp = {key1:k}
+    dict2.update(temp)
+print(dict2)
+
+##output the index of the word in the list to obtain compressed text
+for p in range(len(list1)):
+    for j in dict2:
+        if j== list1[p]:
+            print(dict2[j]) np
+dict1={} ## create dictionary to store the word in the list as key and iths freuquency as value
+for i in list1:
+    count= list1.count(i) #count frequency of occurence of word in the list
+    temp= {i:count} 
+    dict1.update(temp) # update the dictionary with word and its frequency
+##print(dict)
+len(dict1)
+a= np.array(dict1)
+print(a)k=0
+dict2={} # create one more dictionary to store word and its corresponding index
+for key1 in dict1:
+    k= k+1
+    temp = {key1:k}
+    dict2.update(temp)
+print(dict2)
+
+##output the index of the word in the list to obtain compressed text
+for p in range(len(list1)):
+    for j in dict2:
+        if j== list1[p]:
+            print(dict2[j])
+#type(a)
+import pandas as pd
+df1=pd.DataFrame(dict1.items()) #display the dictionary as dataframe using pandas
+df1.columns= ['word', 'index']
+print(df1)
+k=0
+dict2={} # create one more dictionary to store word and its corresponding index
+for key1 in dict1:
+    k= k+1
+    temp = {key1:k}
+    dict2.update(temp)
+print(dict2)
+
+##output the index of the word in the list to obtain compressed text
+for p in range(len(list1)):
+    for j in dict2:
+        if j== list1[p]:
+            print(dict2[j])
